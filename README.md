@@ -16,6 +16,11 @@ First install detectron2
 ```
 git clone https://github.com/facebookresearch/detectron2.git
 ```
+```
+pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+pip install detectron2==0.1.3 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.5/index.html
+```
+
 The train.py is the best setting I submit on leaderboard.
 ```
 python train.py
