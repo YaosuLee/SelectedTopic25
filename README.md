@@ -3,7 +3,7 @@
 
 ## Introduction
 In this task, I focus on recognizing digits from natural images using the Faster R-CNN model. The dataset includes 30,062 training images, 3,340 validation images, and 13,068 test images. Each image may contain one or more digits, which are often very small and appear in complex backgrounds.
-my code is base on git detectron2: https://github.com/facebookresearch/detectron2/tree/main
+My code is base on git detectron2: https://github.com/facebookresearch/detectron2/tree/main
 
 ### 🔹 Key Enhancements:  
 - **Anchor size**  
