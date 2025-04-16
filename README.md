@@ -12,6 +12,10 @@ My code is base on git detectron2: https://github.com/facebookresearch/detectron
 - **Focal Loss**  (ineffective)
 
 ## Training 
+First install detectron2
+```
+git clone https://github.com/facebookresearch/detectron2.git
+```
 The train.py is the best setting I submit on leaderboard.
 ```
 python train.py
